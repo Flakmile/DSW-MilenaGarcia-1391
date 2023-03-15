@@ -5,22 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fase 2</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: darksalmon;
+        }
+        header{
+            background-color: blueviolet;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1> MEDIA QUERIES</h1>
+        <h1 > MEDIA QUERIES</h1>
     </header>
 
     <nav>
         <ul>
-            <li><a href=""></a> Inicio </li>
-            <li><a href=""></a> Tema Seleccionado </li>
-            <li><a href=""></a> Mockup </li>
-            <li><a href=""></a> Acerca de </li>
+            <li><a href="#Inicio"> Inicio </a> </li>
+            <li><a href=""> Tema Seleccionado </a> </li>
+            <li><a href="#Mockup"> Mockup </a> </li>
+            <li><a href="#Acercade"> Acerca de </a>  </li>
         </ul>
     </nav>
-    <section>
-        
+    <section id="Inicio">
+        <p>
+            Una Media Query es una regla o conjunto de reglas que se introducen en una hoja de estilo CSS con el objetivo
+            de definir propiedades específicas para distintos tipos de medios. Son fundamentales en el diseño web actual, 
+            ya que son la base del diseño responsive. Esto significa que con una misma maquetación HTML,
+            nuestro diseño se adaptará a diferentes dispositivos y tipos de pantalla.
+        </p>
+        <img width="768px" src="imagenes/media queries.png">
+
     </section>
+
+    <section >
+        <h2> Cómo se usan las media queries </h2>
+        <p>
+            Son la base del diseño web responsive, dado que permite modificar propiedades de elementos para que la 
+            información presentada en la pagina web se presente de forma correcta, sea desde un computador o desde 
+            un dispositivo movil.
+            <br>
+            Dentro de las media query, algunas propiedades que se suelen modificar suelen ser:
+            
+            <li>Jugar con la visibilidad de elementos display:none</li>
+            <li>Subir o bajar elementos margin-top:10px</li>
+            <li>Acercar o separar elementos padding-left:20px</li>
+            <li>Adecuar el tamaño de algún título font-size:0.9rem</li>
+            <li>Retocar el ancho de una imagen width:90px</li>
+            <li>Variar el alto de una imagen height:50px</li>
+        </p>
+    </section>
+    <hr>
+    <section id="Mockup">
+        <h3> Mockup</h3>
+        <img src="imagenes/Mockup.drawio.png">
+
+    </section>
+
+    <section id="Acercade">
+        <h3> Acerca de </h3>
+
+        <h5> Nombre: Leisa Milena García Pastrán </h5>
+        <h5> Correo: joha05mile20@hotmail.com </h5>
+
+    </section>
+
+    <footer>
+        <p> Esta pagina fue elaborada por Leisa Milena García Pastrán</p>
+    </footer>
+    
 </body>
 </html>
