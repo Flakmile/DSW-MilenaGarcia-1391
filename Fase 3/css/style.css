@@ -9,7 +9,7 @@
 
 header {
     grid-area: A;
-    background-color: #1C315E;
+    background-color:coral;
     color:white;
 }
 
@@ -30,7 +30,7 @@ main {
 
 footer {
     grid-area: E;
-    background-color: #1C315E;
+    background-color:coral;
     color: white;
 }
 
