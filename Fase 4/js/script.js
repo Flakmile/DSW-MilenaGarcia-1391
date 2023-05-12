@@ -15,7 +15,7 @@ function ProcesarRespuestas() {
                 puntos++
             }
     }
-    let resultado = document.getElementById("resultado");
-    resultado.innerHTML='Obtuviste'+puntos+ 'puntos de ' + total + 'posibles';
+    let Resultado = document.getElementById("Resultado");
+    Resultado.innerHTML='Obtuviste '+puntos+ ' puntos de ' + total + ' posibles';
     return false;
 }
