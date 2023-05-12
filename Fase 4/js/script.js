@@ -2,7 +2,7 @@ function ProcesarRespuestas() {
     let total = 5
     let puntos = 0;
 
-    let myForm = Document.forms ["Formulario"];
+    let myForm = document.forms ["Formulario"];
     let RespuestasCorrectas = ["a", "b", "c", "a", "b"];
 
     for (let i=1; i <= total; i++) {
@@ -15,7 +15,7 @@ function ProcesarRespuestas() {
                 puntos++;
             }
     }
-    let resultado = Document.getElementById('resultado')
+    let resultado = document.getElementById('resultado')
     resultado.innerHTML='Obtuviste'+puntos+ 'puntos de ' + total + 'posibles';
     return false;
 }
