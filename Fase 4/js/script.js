@@ -1,5 +1,5 @@
 function ProcesarRespuestas() {
-    let total = 5
+    let total = 5;
     let puntos = 0;
 
     let myForm = document.forms ["Formulario"];
@@ -7,15 +7,15 @@ function ProcesarRespuestas() {
 
     for (let i=1; i <= total; i++) {
         if (myForm["r" + i].value==null||
-            myForm["r" + i].value==''){
+            myForm["r" + i].value=='') {
                 alert('Favor responder todas las preguntas');
                 return false;
             } else{
                 if (myForm["r" + i].value === RespuestasCorrectas[i-1])
-                puntos++;
+                puntos++
             }
     }
-    let resultado = document.getElementById('resultado')
+    let resultado = document.getElementById("resultado");
     resultado.innerHTML='Obtuviste'+puntos+ 'puntos de ' + total + 'posibles';
     return false;
 }
